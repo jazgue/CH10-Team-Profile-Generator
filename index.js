@@ -108,14 +108,11 @@ async function prompt(){
     return createTeam();
 }
 
-questions();
+prompt();
 
 function createTeam(){
     console.log ('New Staff', newStaff)
-    fs.writeFileSync('./dist/index.html',
-        generateTeam(newStaff),
-        'utf-9'
-    );
+    fs.writeFileSync('./dist/index.html',generateTeam(newStaff), 'utf-8');
 }
 
 

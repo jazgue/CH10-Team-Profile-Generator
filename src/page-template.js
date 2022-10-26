@@ -1,5 +1,4 @@
 const generateTeam = (team) => {
-    // create the manager html
     const generateManager = (manager) => {
       return `
           <div class="card employee-card">
@@ -17,8 +16,7 @@ const generateTeam = (team) => {
       </div>
           `;
     };
-  
-    // create the html for engineers
+
     const generateEngineer = (engineer) => {
       return `
           <div class="card employee-card">
@@ -37,7 +35,6 @@ const generateTeam = (team) => {
           `;
     };
   
-    // create the html for interns
     const generateIntern = (intern) => {
       return `
           <div class="card employee-card">
