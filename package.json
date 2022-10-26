@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "jest": "^29.2.1"
+  },
+  "name": "team-profile-generator",
+  "description": "Takes in information about employees on a software engineering team and generates an HTML webpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jazgue/CH10-Team-Profile-Generator.git"
+  },
+  "author": "Jazmin Guerrero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jazgue/CH10-Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/jazgue/CH10-Team-Profile-Generator#readme"
+}
